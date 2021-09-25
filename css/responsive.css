@@ -1,0 +1,41 @@
+@media only screen and (min-width: 992px) {
+    .footer-one {
+        text-align: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .rounded-lg-3 {
+        border-radius: .3rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .top-date {
+        display: none;
+    }
+    .top-number {
+        margin: auto;
+    }
+    .footer-section-2 {
+        display: none;
+    }
+    .footer-section-1 {
+        text-align: center;
+    }
+    .footer-logo {
+        margin: auto;
+    }
+    .tab-font {
+        font-size: 16px;
+    }
+    .destination-btn {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>Travel Web</title>
+</head>
+
+<body>
+    <main>
+
+        <div class="container-fluid bg-theme d-flex flex-wrap py-1">
+            <ul class="nav me-auto text-sm-center">
+                <li class="nav-item"><a class="top-date nav-link link-light px-2">Mon to Fri 8am to 5pm</a></li>
+            </ul>
+            <ul class="nav top-number">
+                <li class="nav-item"><a href="#" class="nav-link link-light px-2">Hotline: +94 91 860 0580 |</a></li>
+                <div class="text-white pt-2 px-2">
+                    <li class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Eng</li>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">SIN</a></li>
+                        <li><a class="dropdown-item" href="#">Spanish</a></li>
+                    </ul>
+                </div>
+            </ul>
+        </div>
+
+        <div class="container">
+            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 mt-4">
+                <a href="#" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                    <h2>LOGO</h2>
+                </a>
+                <ul class="nav col-12 col-md-6 mb-2 justify-content-center mb-md-0">
+                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                </ul>
+                <div class="col-md-3 text-end">
+                    <button type="button" class="btn login-btn px-3">Login</button>
+                    <button type="button" class="btn login-btn">Sign Up</button>
+                </div>
+            </header>
+        </div>
+
+        <nav class="navbar navbar-expand-md navbar-dark bg-theme">
+            <div class="container ">
+                <a class="nav-link text-light" href="#">HOME</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse container-fluid" id="navbarCollapse">
+                    <ul class="navbar-nav mb-2 mb-md-0 m-auto" style="width: 100%;">
+                        <li class="nav-item m-auto pe-auto">
+                            <a class="nav-link" href="#">VACATION</a>
+                        </li>
+                        <li class="nav-item m-auto">
+                            <a class="nav-link" href="#">FLIGHTS</a>
+                        </li>
+                        <li class="nav-item m-auto">
+                            <a class="nav-link" href="#">HOTELS</a>
+                        </li>
+                        <li class="nav-item m-auto">
+                            <a class="nav-link" href="#">OFFERS</a>
+                        </li>
+                        <li class="nav-item m-auto">
+                            <a class="nav-link" href="#">NEWS</a>
+                        </li>
+                        <li class="nav-item m-auto">
+                            <a class="nav-link" href="#">GALLERY</a>
+                        </li>
+                        <li class="nav-item m-auto">
+                            <a class="nav-link" href="#">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </main>
+
+    <!-- hero section start -->
+    <div class="container-fluid bg-hero">
+        <div class="container py-5">
+            <div class="row align-items-center py-4">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h2 class="display-5 fw-bold lh-1 mb-3 text-light">Plan Your Vacation <br> With Us</h2>
+                </div>
+
+                <div class="col-md-10 mx-auto col-lg-6">
+                    <form class="p-4 p-md-5 border rounded-3 bg-theme1">
+                        <div>
+                            <ul class="nav nav-pills nav-fill " id="myTab">
+                                <li class="nav-item border">
+                                    <a href="#flight" class="nav-link text-white active" data-bs-toggle="tab">Flight</a>
+                                </li>
+                                <li class="nav-item border">
+                                    <a href="#hotels" class="nav-link text-white" data-bs-toggle="tab">Hotels</a>
+                                </li>
+                                <li class="nav-item border">
+                                    <a href="#vehicles" class="nav-link text-white" data-bs-toggle="tab">Vehicles</a>
+                                </li>
+                            </ul>
+
+                            <div class="tab-content">
+
+                                <div class="tab-pane fade show active" id="flight">
+                                    <form>
+                                        <div class="col pt-3 text-center">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                <label class="form-check-label text-white" for="inlineRadio1">Round Trip</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                <label class="form-check-label text-white" for="inlineRadio2">One Way</label>
+                                            </div>
+                                        </div>
+                                        <div class="input-group mb-3 pt-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="bi bi-geo-alt-fill"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Leaving from" aria-label="location" aria-describedby="basic-addon1">
+                                        </div>
+                                        <div class="input-group mb-3 pt-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="bi bi-geo-alt-fill"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Going to" aria-label="location" aria-describedby="basic-addon1">
+                                        </div>
+                                        <label for="duration">Check In -- Check Out</label>
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="bi bi-calendar-date-fill"></i></span>
+                                            </div>
+                                            <input type="text" class="border-0" name="date-range" value="01/01/2018 - 01/15/2018" />
+                                        </div>
+                                        <div class="row pb-3 pt-3">
+                                            <div class="col">
+                                                <select class="form-select" aria-label="Default select example">
+                                                <option selected>Adults</option>
+                                                <option value="1">01 Adults</option>
+                                                <option value="2">02 Adults</option>
+                                                <option value="3">03 Adults</option>
+                                              </select>
+                                            </div>
+                                            <div class="col">
+                                                <select class="form-select" aria-label="Default select example">
+                                                <option selected>Children</option>
+                                                <option value="1">01 Children</option>
+                                                <option value="2">02 Children</option>
+                                                <option value="3">03 Children</option>
+                                              </select>
+                                            </div>
+                                            <div class="col">
+                                                <select class="form-select" aria-label="Default select example">
+                                                <option selected>Economy</option>
+                                                <option value="1">Business</option>
+                                                  <option value="2">1st Class</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row pt-3">
+                                            <div class="col"></div>
+                                            <div class="text-center">
+                                                <button type="submit" class="btn theme-btn">Search & Book</button>
+                                            </div>
+                                            <div class="col"></div>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="tab-pane fade" id="hotels">
+                                    <form class="pt-4">
+                                        <div class="input-group mb-3 pt-3 ">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="bi bi-geo-alt-fill"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Where" aria-label="location" aria-describedby="basic-addon1">
+                                        </div>
+                                        <label for="duration">Check In -- Check Out</label>
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="bi bi-calendar-date-fill"></i></span>
+                                            </div>
+                                            <input type="text" class="border-0" name="date-range" value="01/01/2018 - 01/15/2018" />
+                                        </div>
+                                        <div class="row pb-3 pt-3">
+                                            <div class="col">
+                                                <select class="form-select" aria-label="Default select example">
+                                                <option selected>Adults</option>
+                                                <option value="1">01 Adults</option>
+                                                <option value="2">02 Adults</option>
+                                                <option value="3">03 Adults</option>
+                                              </select>
+                                            </div>
+                                            <div class="col">
+                                                <select class="form-select" aria-label="Default select example">
+                                                <option selected>Children</option>
+                                                <option value="1">01 Children</option>
+                                                <option value="2">02 Children</option>
+                                                <option value="3">03 Children</option>
+                                              </select>
+                                            </div>
+                                            <div class="col">
+                                                <select class="form-select" aria-label="Default select example">
+                                                <option selected>Room</option>
+                                                <option value="1">01 Room</option>
+                                                  <option value="2">02 Room</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col"></div>
+                                            <div class="text-center">
+                                                <button type="submit" class="btn theme-btn">Search & Book</button>
+                                            </div>
+                                            <div class="col"></div>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="tab-pane fade" id="vehicles">
+                                    <form class="pt-4">
+                                        <div class="input-group mb-3 pt-3 ">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="bi bi-geo-alt-fill"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Where" aria-label="location" aria-describedby="basic-addon1">
+                                        </div>
+                                        <label for="duration">Check In -- Check Out</label>
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="bi bi-calendar-date-fill"></i></span>
+                                            </div>
+                                            <input type="text" class="border-0" name="date-range" value="01/01/2018 - 01/15/2018" />
+                                        </div>
+                                        <div class="row pb-3 pt-3">
+                                            <div class="col">
+                                                <select class="form-select" aria-label="Default select example">
+                                                <option selected>Adults</option>
+                                                <option value="1">01 Adults</option>
+                                                <option value="2">02 Adults</option>
+                                                <option value="3">03 Adults</option>
+                                              </select>
+                                            </div>
+                                            <div class="col">
+                                                <select class="form-select" aria-label="Default select example">
+                                                <option selected>Children</option>
+                                                <option value="1">01 Children</option>
+                                                <option value="2">02 Children</option>
+                                                <option value="3">03 Children</option>
+                                              </select>
+                                            </div>
+                                            <div class="col">
+                                                <select class="form-select" aria-label="Default select example">
+                                                <option selected>Room</option>
+                                                <option value="1">01 Room</option>
+                                                  <option value="2">02 Room</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col"></div>
+                                            <div class="text-center">
+                                                <button type="submit" class="btn theme-btn">Search & Book</button>
+                                            </div>
+                                            <div class="col"></div>
+                                        </div>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- hero section end -->
+
+    <!-- offers section start  -->
+    <section>
+        <div class="container py-5" id="custom-cards">
+            <div class="row align-items-stretch g-4 py-3">
+
+                <div class="col col-lg-6">
+                    <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg" style="background-image: url('img/00.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 text-white text-shadow-1">
+                            <ul class="d-flex list-unstyled ">
+                                <li class="me-auto">
+                                    <button type="button" class="btn login-btn px-3">Holyday Offers</button>
+                                </li>
+                            </ul>
+                            <h2 class="pt-5 display-6 lh-1 fw-bold text-black">Special Holyday Offers For Family Trips</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-lg-3">
+                    <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg" style="background-image: url('img/11.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h2 class="pt-5 mb-2 lh-1 fw-bold text-center text-black">Travel <br> Tips</h2>
+                            <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-lg-3">
+                    <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg" style="background-image: url('img/22.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                            <h2 class="pt-5 mb-2 lh-1 fw-bold text-center text-black">Hotel <br> Tips</h2>
+                            <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- offers section end  -->
+
+    <!-- holyday start -->
+    <section class="bg-section-1">
+        <div class="container py-5">
+            <h1 class="pb-2 border-bottom text-theme">Holyday Offers</h1>
+            <div class="row col align-items-stretch g-4 py-3">
+
+                <div>
+                    <ul class="nav nav-pills nav-fill tab-font" id="myTab">
+                        <li class="nav-item">
+                            <a href="#all" class="nav-link active" data-bs-toggle="tab">All</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#country01" class="nav-link" data-bs-toggle="tab">Country 01</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#country02" class="nav-link" data-bs-toggle="tab">Country 02</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#country03" class="nav-link" data-bs-toggle="tab">Country 03</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#country04" class="nav-link" data-bs-toggle="tab">Country 04</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="all">
+
+                        </div>
+                        <div class="tab-pane fade" id="country01">
+
+                        </div>
+                        <div class="tab-pane fade" id="country02">
+
+                        </div>
+
+                        <div class="tab-pane fade" id="country03">
+
+                        </div>
+                        <div class="tab-pane fade" id="country04">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-lg-4">
+                    <div class="card">
+                        <img src="img/8.jpg" class="card-img-top" alt="...">
+                        <div class="card card-cover h-100 overflow-hidden text-white shadow-lg" style="background-image: url('img/88.jpg');">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4 class="card-title text-black">Place Name</h4>
+                                        <h6 class="text-muted">Address</h6>
+                                        <h6 class="text-muted">Description</h6>
+                                    </div>
+                                    <div class="col pt-3">
+                                        <h5 class="card-title text-center text-black">$ 350</h5>
+                                    </div>
+                                </div>
+                                <div class="row text-center">
+                                    <button class="btn theme-btn text-center">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-lg-4">
+                    <div class="card">
+                        <img src="img/8.jpg" class="card-img-top" alt="...">
+                        <div class="card card-cover h-100 overflow-hidden text-white shadow-lg" style="background-image: url('img/88.jpg');">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4 class="card-title text-black">Place Name</h4>
+                                        <h6 class="text-muted">Address</h6>
+                                        <h6 class="text-muted">Description</h6>
+                                    </div>
+                                    <div class="col pt-3">
+                                        <h5 class="card-title text-center text-black">$ 350</h5>
+                                    </div>
+                                </div>
+                                <div class="row text-center">
+                                    <button class="btn theme-btn text-center">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-lg-4">
+                    <div class="card">
+                        <img src="img/8.jpg" class="card-img-top" alt="...">
+                        <div class="card card-cover h-100 overflow-hidden text-white shadow-lg" style="background-image: url('img/88.jpg');">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4 class="card-title text-black">Place Name</h4>
+                                        <h6 class="text-muted">Address</h6>
+                                        <h6 class="text-muted">Description</h6>
+                                    </div>
+                                    <div class="col pt-3">
+                                        <h5 class="card-title text-center text-black">$ 350</h5>
+                                    </div>
+                                </div>
+                                <div class="row text-center">
+                                    <button class="btn theme-btn text-center">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+    <!-- top destination end -->
+
+    <!-- top destination start -->
+    <section>
+        <div class="container py-5" id="custom-cards">
+            <h1 class="pb-2 border-bottom text-theme">Top Destinations</h1>
+            <div class="row align-items-stretch g-4 py-3">
+
+                <div class="col col-lg-8">
+                    <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg" style="background-image: url('img/3.jpg'); height: 50%;">
+                        <div class="text-center h-100 p-5 text-white text-shadow-1">
+                            <button type="button" class="btn destination-btn px-3">Place 01</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4">
+                    <div class="card card-cover h-100 overflow-hidden text-white  rounded-5 shadow-lg" style="background-image: url('img/4.jpg');">
+                        <div class="text-center h-100 p-5 text-white text-shadow-1">
+                            <button type="button" class="btn destination-btn px-3">Place 02</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-lg-4">
+                    <div class="card card-cover h-100 overflow-hidden text-white  rounded-5 shadow-lg" style="background-image: url('img/5.jpg');">
+                        <div class="text-center h-100 p-5 text-white text-shadow-1">
+                            <button type="button" class="btn destination-btn px-3">Place 03</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4">
+                    <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg" style="background-image: url('img/6.jpg');">
+                        <div class="text-center h-100 p-5 text-white text-shadow-1">
+                            <button type="button" class="btn destination-btn px-3">Place 04</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4">
+                    <div class="card card-cover h-100 overflow-hidden text-white  rounded-5 shadow-lg" style="background-image: url('img/7.jpg'); height: 450px;">
+                        <div class="text-center h-100 p-5 text-white text-shadow-1">
+                            <button type="button" class="btn destination-btn px-3">Place 05</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- top destination end -->
+
+    <!-- footer start  -->
+    <section class="footer bg-footer">
+        <div class="container container-fluid ">
+            <footer class="row pt-5 border-top">
+
+                <div class="footer-section-1 col-lg-4 col-sm-10">
+                    <a href="/" class="d-flex mb-2 link-dark text-decoration-none">
+                        <h1 class="footer-logo text-white">LOGO</h1>
+                    </a>
+                    <p class="footer-font-colour">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-font-colour"><i class="bi bi-geo-alt-fill" style="padding-right: 5px;"></i> ABS Street, Town.</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-font-colour"><i class="bi bi-envelope-fill" style="padding-right: 5px;"></i> abc@gmail.com</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-font-colour"><i class="bi bi-telephone-fill" style="padding-right: 5px;"></i>+94 91 860 1058</a></li>
+                    </ul>
+                    <ul class="list-inline social-icons social-colored ">
+                        <li class="mb-2 social-facebook">
+                            <a href="" target="_blank"><i class="bi bi-facebook"></i></a>
+                        </li>
+                        <li class="mb-2 social-twitter">
+                            <a href="" target="_blank"><i class="bi bi-twitter"></i></a>
+                        </li>
+                        <li class="mb-2 social-google">
+                            <a href="" target="_blank"><i class="bi bi-google"></i></a>
+                        </li>
+                        <li class="mb-2 social-instagram">
+                            <a href="" target="_blank"><i class="bi bi-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-sm-10 text-center pt-3 pb-3">
+                    <h5 class="title-colour">QUICK LINKS</h5>
+                    <div class="row pt-3">
+                        <div class="col">
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-font-colour">Home</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-font-colour">Flight</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-font-colour">Hotels</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-font-colour">Vehicles</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-font-colour">Gallery</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-font-colour">Popular Places</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-font-colour">Blogs</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-font-colour">Offers</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-font-colour">News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2"></div>
+
+                <div class="footer-section-2 col-lg-3 col-sm-10 pt-3">
+                    <h5 class="title-colour">SUPPORT</h5>
+                    <ul class="nav flex-column pt-3">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-font-colour">Our Covid-19 Response</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-font-colour">Help Center</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-font-colour">Booking Cancellation Option</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-font-colour">Trust & Safety</a></li>
+                    </ul>
+                </div>
+
+            </footer>
+        </div>
+    </section>
+
+    <!-- bottom footer  -->
+    <section>
+        <div class="container-fluid bg-bottom-footer d-flex flex-wrap justify-content-center align-items-center py-2">
+            <a href="/" class="col-md-12 text-center d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                <p class="col-md-4 mb-0 text-white">&copy; 2021 ABCBooking.com All right reserved.</p>
+            </a>
+        </div>
+    </section>
+    <!-- footer end  -->
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
+
+    <!-- date picker  -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+
+    <script>
+        $(function() {
+            $('input[name="date-range"]').daterangepicker({
+                opens: 'left'
+            }, function(start, end, label) {
+                console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
